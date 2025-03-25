@@ -1,0 +1,44 @@
+# RankPerks Configuration
+ranks:
+  default:
+    display_name: "§7Default"
+    damageBoost: 0
+    healthBonus: 0
+    speedBoost: 0
+    permissions: []
+  warrior:
+    display_name: "§6Warrior"
+    damageBoost: 5
+    healthBonus: 2
+    speedBoost: 0.05
+    permissions:
+      - "rankperks.warrior"
+  knight:
+    display_name: "§bKnight"
+    damageBoost: 10
+    healthBonus: 4
+    speedBoost: 0.08
+    permissions:
+      - "rankperks.knight"
+  champion:
+    display_name: "§cChampion"
+    damageBoost: 15
+    healthBonus: 6
+    speedBoost: 0.1
+    permissions:
+      - "rankperks.champion"
+
+rankup:
+  default: warrior
+  warrior: knight
+  knight: champion
+
+effects:
+  health_enabled: true
+  speed_enabled: true
+  damage_boost_enabled: true
+
+settings:
+  gui_size: 27
+  gui_title: "§6Rank Perks & Abilities"
+  notify_rankup: true

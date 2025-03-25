@@ -1,0 +1,19 @@
+messages:
+  player_only: "§cOnly players can use this command!"
+  no_permission: "§cYou do not have permission to use this command!"
+  rankup: "§aCongratulations! You ranked up to §e{rank} §afor defeating §c{player}!"
+  gui_open: "§aOpening the Rank Perks menu..."
+  gui_closed: "§aYou closed the Rank Perks menu."
+  effect_applied: "§eYou received a {effect} bonus from your rank!"
+  effect_removed: "§cYour {effect} bonus has been removed."
+
+gui:
+  title: "§6Rank Perks & Abilities"
+  item_damage_boost: "§7Damage Boost: §a{boost}%"
+  item_health_bonus: "§7Extra Health: §a{health} HP"
+  item_speed_boost: "§7Speed Increase: §a{speed}%"
+  no_rank: "§cNo rank perks available."
+
+notifications:
+  rankup_enabled: "§aRankup notifications are enabled."
+  rankup_disabled: "§cRankup notifications are disabled."
