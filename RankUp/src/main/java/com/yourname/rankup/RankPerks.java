@@ -1,4 +1,4 @@
-package com.yourserver.rankup;
+package com.RankPerks;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
