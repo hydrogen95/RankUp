@@ -29,6 +29,16 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
@@ -42,5 +52,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
