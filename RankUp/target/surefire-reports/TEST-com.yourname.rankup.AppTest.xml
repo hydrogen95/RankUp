@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.yourname.rankup.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.yourname.rankup.AppTest" time="0.038" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.6-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/RankUp/RankUp/target/surefire/surefirebooter-20250325015255480_3.jar /workspaces/RankUp/RankUp/target/surefire 2025-03-25T01-52-55_272-jvmRun1 surefire-20250325015255480_1tmp surefire_0-20250325015255480_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/RankUp/RankUp/target/surefire/surefirebooter-20250325015957048_3.jar /workspaces/RankUp/RankUp/target/surefire 2025-03-25T01-59-56_924-jvmRun1 surefire-20250325015957048_1tmp surefire_0-20250325015957048_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/RankUp/RankUp/target/test-classes:/workspaces/RankUp/RankUp/target/classes:/home/codespace/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/codespace/.m2/repository/org/spigotmc/spigot-api/1.21.1-R0.1-SNAPSHOT/spigot-api-1.21.1-R0.1-SNAPSHOT.jar:/home/codespace/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/codespace/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/codespace/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/codespace/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/codespace/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/codespace/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/codespace/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/org/joml/joml/1.10.5/joml-1.10.5.jar:/home/codespace/.m2/repository/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar:/home/codespace/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/RankUp/RankUp/target/surefire/surefirebooter-20250325015255480_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/RankUp/RankUp/target/surefire/surefirebooter-20250325015957048_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.yourname.rankup.AppTest" time="0.0"/>
+  <testcase name="testApp" classname="com.yourname.rankup.AppTest" time="0.005"/>
 </testsuite>
